@@ -13,7 +13,12 @@ output:
 
 ## Let's add some links
 
-I often use [google](google.com) to do some work. 
+I often use [google](https://www.google.com) to do some work. 
+
+## Let's add an image
+
+Here's my cat:
+![]image.jpg
 
 ```{r}
 
