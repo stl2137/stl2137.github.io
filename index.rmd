@@ -9,6 +9,8 @@ output:
 
 # This is Jeff's awesome website
 
+Learn about me [here](about.html)!
+
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 ## Let's add some links
