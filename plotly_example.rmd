@@ -40,7 +40,11 @@ nyc_airbnb %>%
   plot_ly(x = ~lat, y = ~long, type = "scatter", mode = "markers", color = ~price, alpha = 0.5)
 ```
 
-```{r}
 
+## Boxplots
+```{r}
+nyc_airbnb %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box", colors = "Set2")
 ```
 
